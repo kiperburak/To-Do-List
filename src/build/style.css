@@ -1,0 +1,45 @@
+body{
+    background: #5d89cc;
+}
+
+.app{
+    padding:30px;
+}
+
+.todo-list{
+    background: #e8e8e8;
+    border-radius: 4px;
+    max-width: 400px;
+    padding: 14px;
+}
+
+.singleTodoItem{
+    font-family: "Arial";
+    align-items: center;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 3px 10px;
+}
+
+.itemInput {
+    width: 200px;
+}
+
+.addItemButton{
+    float: right;
+}
+
+.markCompleteTodoItem {
+    margin-left: 10px;
+}
+
+.completedTodo {
+    text-decoration: line-through;
+    text-decoration-color: green;
+    text-decoration-thickness: 3px;
+}
